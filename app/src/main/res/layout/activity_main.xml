@@ -16,8 +16,8 @@
         android:textStyle="bold"
         android:textColor="@color/white"
         android:background="@color/black"
-        android:text="test"
-        android:gravity="fill_horizontal"
+        android:text=""
+        android:gravity="fill_horizontal|center"
         android:paddingLeft="20dp"
         android:maxLines="3"
 android:autoSizeMaxTextSize="20dp"
@@ -220,6 +220,46 @@ android:onClick="Value_typed_multiply"
             android:onClick="Value_typed_division"
 
             />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="^"
+            android:textSize="20dp"
+            android:onClick="Value_typed_power"
+
+            />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="%"
+            android:textSize="20dp"
+            android:onClick="Value_typed_Modulo"
+            />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="√"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:onClick="Value_typed_racine"
+
+            />;
+
 
 
     </TableRow>
